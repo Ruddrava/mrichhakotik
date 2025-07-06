@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mrichhakotik | Contact</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #111;
+    }
+
+    header {
+      background-color: #3a0d0d;
+      padding: 1rem 2rem;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav ul li {
+      margin-left: 1rem;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 6px 10px;
+      border-radius: 4px;
+    }
+
+    nav ul li a.active {
+      background-color: #b40000;
+      color: white;
+    }
+
+    .banner {
+      background-color: #6b1313;
+      padding: 2rem;
+      text-align: center;
+      color: white;
+    }
+
+    .banner h2 {
+      margin: 0;
+    }
+
+    .contact-section {
+      padding: 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: space-between;
+    }
+
+    .contact-info, .contact-form {
+      flex: 1;
+      min-width: 300px;
+    }
+
+    .contact-info p {
+      line-height: 1.6;
+    }
+
+    .contact-form form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contact-form label {
+      margin-bottom: 0.3rem;
+      font-weight: bold;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      padding: 0.7rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1rem;
+    }
+
+    .contact-form button {
+      padding: 0.7rem 1.2rem;
+      background-color: #6b1313;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .contact-form button:hover {
+      background-color: #a11919;
+    }
+
+    .footer {
+      background-color: #222;
+      color: #bbb;
+      padding: 2rem;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      font-size: 0.85rem;
+    }
+
+    .footer div {
+      max-width: 300px;
+      margin-bottom: 1rem;
+    }
+
+    .footer a {
+      color: #bbb;
+      text-decoration: none;
+      display: block;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Mrichhakotik</h1>
+  <nav>
+    <ul>
+      <li><a href="tickets.html">Home</a></li>
+      <li><a href="about us.html">About Us</a></li>
+      <li><a href="workshops.html">Workshops</a></li>
+      <li><a href="festival.html">Festival</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="banner">
+  <h2>Contact Us</h2>
+</div>
+
+<div class="contact-section">
+  <div class="contact-info">
+    <h3>Reach Out</h3>
+    <p>Email: contact@mrichhakotik.org</p>
+    <p>Phone:<br> +91-9903007968<br> +91-9830156891</p>
+    <p>Instagram: @mrichhakotik</p>
+    <p>Address:<br> Flat 3B, Harish Chatterjee Street,<br> Kolkata - 700026</p>
+  </div>
+
+  <div class="contact-form">
+    <h3>Send Us a Message</h3>
+    <form action="mailto:contact@mrichhakotik.org" method="post" enctype="text/plain">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="Name" required />
+
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="Email" required />
+
+      <label for="message">Message</label>
+      <textarea id="message" name="Message" rows="5" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</div>
+
+<div class="footer">
+  <div>
+    <strong>Quick Navigation</strong>
+    <a href="about us.html">About Us</a>
+    <a href="workshops.html">Our Team</a>
+    <a href="festival.html">Theatre Festival</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <div>
+    <strong>Contact Us</strong>
+    <p>Email: contact@mrichhakotik.org</p>
+    <p>Phone: +91-9903007968<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+91-9830156891</p>
+    <p>Instagram: @mrichhakotik</p>
+  </div>
+  <div>
+    <strong>Office Address</strong>
+    <p>Flat 3B, Harish Chatterjee Street,<br>Kolkata - 700026</p>
+  </div>
+</div>
+
+</body>
+</html>
