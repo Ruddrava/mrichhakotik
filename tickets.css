@@ -1,8 +1,0 @@
-nav ul li a.active {
-  background-color: #b40000; /* red like sidebar */
-  color: white;
-  padding: 8px 12px;
-  border-radius: 4px;
-  text-decoration: none;
-}
-
